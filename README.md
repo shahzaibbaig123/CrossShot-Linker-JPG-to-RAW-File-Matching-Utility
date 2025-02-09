@@ -44,13 +44,14 @@ Smart JPG-to-RAW matching utility for photographers working with multiple camera
 ```bash
 git clone https://github.com/yourusername/CrossShot-Linker.git
 cd CrossShot-Linker
-exit
+```
 
 2. Install dependencies:
 
 ```bash
-pip install -r requirements.txt
-
+pip install Pillow exifread rawpy imagehash
+```
 3. Run the script:
 ```bash
 python match_photos.py
+```
